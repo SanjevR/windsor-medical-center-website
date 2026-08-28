@@ -1,0 +1,16 @@
+{
+  "name": "Windsor Medical Center & Med Sleep, LLC",
+  "short_name": "Windsor Medical",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d9edf9",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

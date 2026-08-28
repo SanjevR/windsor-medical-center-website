@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-label="Dr. Sri Sujanthy Rajaram">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e5f5fd"/><stop offset="1" stop-color="#b8dff1"/></linearGradient></defs>
+  <rect width="500" height="500" rx="26" fill="url(#g)"/>
+  <circle cx="250" cy="210" r="116" fill="#fff" stroke="#6baccb" stroke-width="12"/>
+  <circle cx="250" cy="183" r="47" fill="#7ba9be"/>
+  <path d="M156 292c22-58 57-86 94-86s72 28 94 86" fill="#7ba9be"/>
+  <text x="250" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#fff">SR</text>
+  <rect x="55" y="362" width="390" height="70" rx="35" fill="#174f6e"/>
+  <text x="250" y="407" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">Physician</text>
+</svg>
