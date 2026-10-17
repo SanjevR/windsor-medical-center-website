@@ -412,22 +412,45 @@ export function HoursPage() {
         e('p', null, 'Staff members take a one-hour lunch break, but there is no fixed lunch period. Lunch breaks may occur at different times during the business day.'),
         e('p', null, 'When a call is not answered, please leave your name, telephone number, and a brief explanation of how we can assist you.'),
       ),
-      e(
-        'section',
-        { className: 'content-panel' },
-        e('h2', null, 'Physician availability'),
-        e('p', null, 'Dr.Kandasamy is generally available by appointment on regularly scheduled office days. His schedule may vary during certain weeks, so please call in advance to confirm availability'),
+     e(
+  'section',
+  { className: 'content-panel' },
 
-        e('East Windsor, NJ Office'),
-        e('Monday: 2:00 pm - 6:00 pm'),
-        e('Wednesday: 2:00 pm - 7:00 pm'),
-        e('Thursday: 9:30 am - 3:30 pm'),
+  e('h2', null, 'Physician Availability'),
 
-        e('Union, NJ Office'),
-        e('Tuesday: 10:00 am - 4:00 pm'),
-        e('Thursday: 10:00 am - 4:00 pm '),
-        e('p', null, 'Dr. Sujanthy Rajaram sees patients on a limited, appointment-only basis. Her availability varies, and she is not regularly present during all office hours. Contact the office to ask about upcoming appointment dates.'),
-      ),
+  e(
+    'p',
+    null,
+    'Dr. Kandasamy is generally available by appointment on regularly scheduled office days. His schedule may vary during certain weeks, so please call in advance to confirm availability.'
+  ),
+
+  // East Windsor Office
+  e('h3', null, 'East Windsor, NJ Office'),
+
+  e(
+    'ul',
+    null,
+    e('li', null, 'Monday: 2:00 PM – 6:00 PM'),
+    e('li', null, 'Wednesday: 2:00 PM – 7:00 PM'),
+    e('li', null, 'Thursday: 9:30 AM – 3:30 PM')
+  ),
+
+  // Union Office
+  e('h3', null, 'Union, NJ Office'),
+
+  e(
+    'ul',
+    null,
+    e('li', null, 'Tuesday: 10:00 AM – 4:00 PM'),
+    e('li', null, 'Friday: 10:00 AM – 4:00 PM')
+  ),
+
+  e(
+    'p',
+    null,
+    'Dr. Sujanthy Rajaram sees patients on a limited, appointment-only basis. Her availability varies, and she is not regularly present during all office hours. Contact the office to ask about upcoming appointment dates.'
+  )
+),
       e(
         'section',
         { className: 'content-panel' },
