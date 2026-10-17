@@ -144,7 +144,7 @@ export const staff = [
     image: '/images/sarita.jpg',
   },
    {
-    name: 'Nicole Acre',
+    name: 'Nicole Arce',
     credentials: '',
     role: 'East Windsor Office Manager',
     specialties: 'Patient scheduling and office administration at the East Windsor location',
