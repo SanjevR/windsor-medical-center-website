@@ -330,6 +330,26 @@ export function AnnouncementsPage() {
       intro: 'Public practice notices appear here so essential information remains readable even when an external social-media embed is unavailable.',
     },
     e(
+  Callout,
+  { title: 'Windsor Medical Center on X', tone: 'soft', icon: 'info' },
+  e(
+    'p',
+    null,
+    'Follow Windsor Medical Center on X for additional public announcements and practice updates.',
+  ),
+  e(
+    'a',
+    {
+      href: site.xProfileUrl,
+      target: '_blank',
+      rel: 'noopener noreferrer',
+      className: 'button button-secondary',
+    },
+    'View @WindsorMedNJ on X',
+    e(Icon, { name: 'external', size: 16 }),
+  ),
+),
+    e(
       'div',
       { className: 'announcement-list' },
       e(
@@ -349,14 +369,7 @@ export function AnnouncementsPage() {
         e(AppLink, { to: '/', className: 'text-link' }, 'View privacy-network addresses'),
       ),
     ),
-    e(XEmbed, { url: site.xPostUrl }),
-    !site.xPostUrl
-      ? e(
-          Callout,
-          { title: 'External X announcement', tone: 'soft', icon: 'info' },
-          e('p', null, 'The site is prepared for an optional embedded X post. Add the public post URL to the xPostUrl setting in src/site-data.js when the post to feature has been selected.'),
-        )
-      : null,
+  
   )
 }
 

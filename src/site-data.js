@@ -5,7 +5,7 @@ export const site = {
   email: 'windsormedicine@yahoo.com',
   faxDisplay: '(609) 443-4800',
   faxDial: '+16094434800',
-  xPostUrl: '',
+  xProfileUrl: 'https://x.com/WindsorMedNJ',
   torAddress: 'gnveikugxor56cmey6isz6bk5z3gyxsytdyaoxolqn6xdfsrjlhe6xyd.onion',
   i2pAddress: 'windsormedical.i2p',
 }
@@ -142,6 +142,13 @@ export const staff = [
     role: 'Union Office Manager',
     specialties: 'Patient scheduling and office administration at the Union location',
     image: '/images/sarita.jpg',
+  },
+   {
+    name: 'Nicole Acres',
+    credentials: '',
+    role: 'East Windsor Office Manager',
+    specialties: 'Patient scheduling and office administration at the East Windsor location',
+    image: '/images/placeholder.jpg',
   },
 ]
 
