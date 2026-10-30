@@ -259,7 +259,7 @@ export function PaymentPage() {
       e(
         FaqItem,
         { question: '1. What types of payment do you accept?', open: true },
-        e('p', null, 'We accept cash, checks, money orders, credit and debit cards, contactless cards, Apple Pay, Google Pay, Samsung Pay, Venmo, and Cash App. At the East Windsor office, Bitcoin and Ethereum may also be accepted under the restrictions described below.'),
+        e('p', null, 'We accept cash, checks, money orders, credit and debit cards ( Visa, Mastercard, American Express, Discover, JCB, and UnionPay International) EMV chip cards, contactless cards, Apple Pay, Google Pay, Samsung Pay, and Cash App. At the East Windsor office, Bitcoin and Ethereum may also be accepted under the restrictions described below.'),
       ),
       e(
         FaqItem,
